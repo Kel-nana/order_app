@@ -36,8 +36,8 @@
     width: 98%;
     height: 67%;
     border-right: 3px solid #8a2b06;
-    border-bottom: 1px solid #8a2b06;
-    background-color: #2d12077d; /* Adjust opacity as needed */
+    /* border-bottom: 1px solid #8a2b06; */
+    background-color: #1f1c1b7d; /* Adjust opacity as needed */
     transform: rotateZ(-5deg) translateY(-4rem)translateX(-1rem);
     z-index: 2; /* Ensure the pseudo-element is above the background image */
   }
