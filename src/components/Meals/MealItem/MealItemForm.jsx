@@ -4,13 +4,13 @@ import classes from './mealItemForm.module.css';
 
 const MealItemForm = (props) => {
   const { id } = props
-  
+ 
   return(
   <form className={classes.form}>
     <Input
       label="Amount" 
       input={{
-        id: 'amount'+id,
+        id: 'amounts'+id,
         type: 'number',
         min: '1',
         max: '5',
